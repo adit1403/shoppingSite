@@ -16,7 +16,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    color: whitesmoke;
+    color: whites;
     background: darkblue;
 }
 
@@ -25,21 +25,17 @@ body {
     border: 1px solid transparent;
 }
 
-.menubar-item:hover {
-    border: 1px solid whitesmoke;
-}
-
 .menubar .toggle i {
     width: auto;
 }
 
 .menubar .logo img {
     height: 36px;
-    border: none!important;
+
 }
 
 .searchBar {
-    border: none!important;
+
 }
 
 .searchBar>button {
