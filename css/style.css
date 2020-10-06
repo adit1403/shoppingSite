@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(11, 30, 48);
+}
+
+.menubar {
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: whitesmoke;
+    background: darkblue;
+}
+
+.menubar-item {
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.menubar-item:hover {
+    border: 1px solid whitesmoke;
+}
+
+.menubar .toggle i {
+    width: auto;
+}
+
+.menubar .logo img {
+    height: 36px;
+    border: none!important;
+}
+
+.searchBar {
+    border: none!important;
+}
+
+.searchBar>button {
+    border: none;
+    background-color: rgb(255, 153, 0);
+}
